@@ -1,0 +1,302 @@
+@font-face {
+    font-family: Emirates;
+    src: url(./assets/Emirates\ Medium.ttf);
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Emirates';
+  background-color:black;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.header {
+  border-bottom: 3px solid #420b25;
+  background-color: #5c0931;
+  background-image: linear-gradient( to left, #1c0610 50%, #420b25 , #660833, #5c0931 );
+}
+
+.header .container {
+  justify-content: space-between;
+  background-color: #5c0931;
+  background-image: linear-gradient( to left, #1c0610 50%, #420b25 , #660833, #5c0931 );
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.agora {
+  font-weight: 800;
+}
+
+.navbar {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+.btn_cadastro{
+    width: 140px;
+    height: 40px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 3px solid #5c0931;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #420b25;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.btn_login{
+    width: 140px;
+    height: 40px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 3px solid #5c0931;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #420b25;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.logo{
+    background-color: #420b25;
+    width: 75px;
+    height: 130px;
+    left: 3rem;
+    position: absolute;
+    width: 90px;
+    height: 125px;
+    z-index: 3;
+}
+
+.buttons {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+  }
+
+  /* BANNER */
+
+  .banner {
+    height: fit-content;
+    padding: 80px 0;
+    color: white;
+    background-image: url("./assets/mesquitaa.jpg");
+    background-size: cover;
+  }
+  
+  .banner .container {
+    height: 400px;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tamanho-conteudo { 
+    height: fit-content !important;
+  }
+  
+  .banner p {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    font-size: 36px;
+  }
+  
+  .banner .container span {
+    font-weight: 800;
+  }
+
+  /* Os 4 Jihads */
+
+  .social {
+    background-color: #fcf2d7;
+    display: flex;
+    height: fit-content;
+    padding: 80px 0;
+    color: black;
+    background-image: url(".././assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+    
+  }
+  
+  .social .container{
+        flex-direction: column;
+
+  }
+   
+   h2{
+  display: block;
+  font-size: 3rem;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+   }
+
+  .social p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+
+
+  }
+  .box img {
+    width: 170px;
+  }
+  
+  .container .boxes {
+    display: flex;
+  }
+  
+  .social p {
+    text-align: initial;
+  }
+  
+  .box {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5c0931;
+    background-image: linear-gradient( to left, #1c0610 10%, #420b25 , #660833, #5c0931 );
+    height: 200px;
+    border-radius: 5%;
+    width: 500px;
+  }
+
+  .box p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Emirates';
+  font-size: medium;
+  }
+  
+  
+  .box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+  }
+
+  /* Diagrama de negócio */
+
+  .diagrama{
+  background-color:#5c0931;
+  background-image: linear-gradient( to left, #1c0610 50%, #420b25 , #660833, #5c0931 );
+  display: flex;
+  height: fit-content;
+  padding: 80px 0;
+  color: black;
+  background-size: cover;
+  }
+
+  .diagrama .container{
+    flex-direction: column;
+
+}
+
+h3{
+display: block;
+font-size: 3rem;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+color: white
+}
+
+.diagrama p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.5rem;
+
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: black;
+    height: 70px;
+    color: black;
+    display: flex;
+    font-size: 15px;
+
+  }
+  
+  .footer .container {
+    justify-content: space-between;
+  }
+
+  h5{
+    display: block;
+    font-size:medium;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+  }
+
+  h7{
+    display: block;
+    font-size: medium;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+.fotoeu{
+    display: flex;
+    justify-content: center;
+    border-radius: 90%;
+}
